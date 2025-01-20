@@ -14,8 +14,12 @@ app.use(express.json());
 connectDB();
 
 // Start the server
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8050;
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
+
+//user apis
+const userRoutes = require("./routes/userRoutes");
+app.use("/api/users", userRoutes);
