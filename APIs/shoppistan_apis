@@ -1,0 +1,62 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Shoppistan",
+    "collectionId": "fbbd0404-403d-42b6-9c94-90e3032d1854",
+    "dateExported": "2025-01-22T16:26:27.871Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "6e6d1fd7-2cc4-44a8-a287-b43595947d64",
+            "colId": "fbbd0404-403d-42b6-9c94-90e3032d1854",
+            "containerId": "",
+            "name": "add user",
+            "url": "http://localhost:8050/api/users",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2025-01-20T18:02:53.069Z",
+            "modified": "2025-01-20T18:02:53.069Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"John Doe\",\n  \"email\": \"john.doe@example.com\",\n  \"phone\": \"9876543210\",\n  \"username\": \"john123\",\n  \"password\": \"securepassword\"\n}\n",
+                "form": []
+            }
+        },
+        {
+            "_id": "3664e62c-ef85-42bd-a623-9c1ddc760f7d",
+            "colId": "fbbd0404-403d-42b6-9c94-90e3032d1854",
+            "containerId": "",
+            "name": "Sign up",
+            "url": "http://localhost:8050/api/auth/signup",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2025-01-22T15:52:27.110Z",
+            "modified": "2025-01-22T16:13:16.172Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"name\": \"John Doe\",\r\n  \"email\": \"john@example.com\",\r\n  \"phone\": \"9876543210\",\r\n  \"username\": \"johndoe\",\r\n  \"password\": \"securepassword\"\r\n}\r\n",
+                "form": []
+            }
+        },
+        {
+            "_id": "510dd18f-e3bc-4e18-b0e7-939edc60da1b",
+            "colId": "fbbd0404-403d-42b6-9c94-90e3032d1854",
+            "containerId": "",
+            "name": "login",
+            "url": "http://localhost:8050/api/auth/login",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2025-01-22T16:13:45.611Z",
+            "modified": "2025-01-22T16:14:15.503Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"email\": \"john@example.com\",\r\n  \"password\": \"securepassword\"\r\n}\r\n",
+                "form": []
+            }
+        }
+    ],
+    "ref": "nGcmFvpqHorSrS5BlLMXk-j9u8CpaS_8lOrY4LQpE7CSoRr_SBRk-yrkfpZk81RPxqJ9Ei4Sy2Pd3WUeC_ZzRw"
+}
